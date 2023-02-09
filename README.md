@@ -6,13 +6,17 @@ The implementation for the simulations of the paper "[Cell-Free ISAC MIMO System
 
 * The simulation parameters can be set in `sim_params.m` file.
 
-* Run `run.m` file to generate the simulation results. 
+* Set the CVX path in the first line of `run.m` and run the script to generate the simulation results. 
 
 (This step may be skipped since the output data files are pre-generated and already available)
 
 * Run `plots/plot_results_power.m` to regenerate Figure 3 (power ratio vs performance) of the paper.
 
+![Power Figure](plots/power_vs_perf.png)
+
 * Run `plots/plot_results_dist.m` to regenerate Figure 4 (min. distance vs performance) of the paper.
+
+![Distance Figure](plots/dist_vs_perf.png)
 
 ### Abstract
 
