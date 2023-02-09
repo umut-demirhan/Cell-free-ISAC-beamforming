@@ -8,15 +8,15 @@ The implementation for the simulations of the paper "[Cell-Free ISAC MIMO System
 
 * Set the CVX path in the first line of `run.m` and run the script to generate the simulation results. 
 
-(This step may be skipped since the output data files are pre-generated and already available)
+(This step may be skipped since the output data files are pre-generated and already available. If skipped, add the subfolders to the MATLAB path before the next steps. )
 
 * Run `plots/plot_results_power.m` to regenerate Figure 3 (power ratio vs performance) of the paper.
 
-![Power Figure](plots/power_vs_perf.png)
+<img src="plots/power_vs_perf.png" width="600">
 
 * Run `plots/plot_results_dist.m` to regenerate Figure 4 (min. distance vs performance) of the paper.
 
-![Distance Figure](plots/dist_vs_perf.png)
+<img src="plots/dist_vs_perf.png" width="600">
 
 ### Abstract
 
